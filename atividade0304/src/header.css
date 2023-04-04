@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    color: hsl(305, 87%, 55%);
+    font-size: 5rem;
+    text-align: center;
+}
+
+p {
+    text-indent: 4rem;
+    margin: 0.625rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
