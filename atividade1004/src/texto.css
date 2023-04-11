@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root{
+    --VeryDarkBlue: hsl(212, 21%, 14%);
+    --Darkblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --DarkCyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+  }
+
+h1{
+    font-family: 'Montserrat';
+    font-style: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: var(--Darkblue);
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--VeryDarkBlue);
+    margin-bottom: 1rem;
+}
+
+.descricao {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: var(--Darkblue);
+    margin-bottom: 1rem;
+}
+
+.preco{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--DarkCyan);
+    margin-bottom: 1rem;
+}
+
+.preco span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: var(--Darkblue);
+}
+
+button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: var(--DarkCyan);
+    border: none;
+    padding: 1.0625rem 2.5rem;
+    border-radius: 0.620rem; 
+}
