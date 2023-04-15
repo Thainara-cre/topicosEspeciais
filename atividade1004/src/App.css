@@ -20,3 +20,10 @@
 .imagem{
   width: 100%;
 }
+
+@media (max-width: 375px) {
+  .App {
+    columns: 1;
+    margin: 1.925rem;
+  }
+}
